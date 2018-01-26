@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lord of the Rings</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class = "row" id = "first">
+			<div class = "col-md-4">
+			</div>
+			<div class = "col-md-4 cont" id = "result">
+			</div>
+			<div class = "col-md-4">
+			</div>
+		</div>
+
+		<div class = "row" id = "names">
+			<div class = "col-md-3">
+			</div>
+			<div class = "col-md-2 cont" id="playerName"></div>
+			<div class = "col-md-2">
+			</div>
+			<div class = "col-md-2 cont" id="enemyName"></div>
+			<div class = "col-md-3">
+			</div>
+
+		</div>
+
+		<div class = "row" id = "second">
+			<div class = "col-md-3">
+			</div>
+			<div hidden class = "col-md-2 cont" id="playerCharArea">
+				<!-- Empty and hidden until player character is selected -->
+				<div class = "health" id = "playerHealth"></div>
+			</div>
+			<div class = "col-md-2">
+				<div class = "row" id = "sub">
+					<div class = "col-md-3">
+					</div>
+					<div hidden class = "col-md-6" id = "attack">
+						<button class = "btn btn-default attack">Attack</button>
+						<!-- Starts hidden -->
+					</div>
+					<div class = "col-md-3">
+					</div>
+				</div>
+			</div>
+			<div hidden class = "col-md-2 cont" id="enemyCharArea">
+				<!-- Empty and hidden until enemy character is selected -->
+				<div class = "health" id = "enemyHealth"></div>
+			</div>
+			<div class = "col-md-3">
+			</div>
+		</div>
+
+		<div class = "row" id = "third">
+			<div class = "col-md-5 cont">
+				<div class = "row" id = "playerCharSelection">
+					<div class = "col-md-3 cont">
+						<img src="assets/images/aragorn.jpg" class="playerCharPick" data-obj="aragorn">
+					</div>
+					<div class = "col-md-3 cont">
+						<img src="assets/images/gandalf.jpg" class="playerCharPick" data-obj="gandalf">
+					</div>
+					<div class = "col-md-3 cont">
+						<img src="assets/images/orc.jpg" class="playerCharPick" data-obj="orc">
+					</div>
+					<div class = "col-md-3 cont">
+						<img src="assets/images/sauron.jpg" class="playerCharPick" data-obj="sauron">
+					</div>
+				</div>
+
+			</div>
+			<div class = "col-md-2" id="newGame">
+				<button class = "btn btn-default newGame">New Game</button>
+			</div>
+			<div class = "col-md-5 cont">
+				<div class = "row" id = "enemyCharSelection">
+					<div class = "col-md-3 cont">
+						<!-- empty box to keep formatting -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+
+</html>

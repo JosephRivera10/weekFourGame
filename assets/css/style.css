@@ -1,0 +1,99 @@
+
+body {
+	background-image: url("../images/background1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+.cont {
+	/*border: 5px solid black;*/
+	height: 100%;
+	text-align: center;
+	/*line-height: 80px;*/
+	font-size: 30px;
+	color: #e0c647;
+	font-family: 'IM Fell English SC', serif;
+    text-shadow: 2px 2px #000;
+    font-size: 55px;
+
+}
+
+/* General styling for containers */
+
+#first {
+	height: 80px;
+	margin: 20px 20px 0px 20px;
+}
+#second {
+	height: 200px;
+	margin: 10px 0px;
+}
+#sub {
+	height: 40px;
+	margin-top: 80px;
+}
+#names {
+	height: 50px;
+}
+#attack {
+	text-align: center;
+	height: 100%;
+}
+.attack {
+	/*visibility: hidden;*/
+}
+#newGame {
+	text-align: center;
+	/*height: 100%;*/
+}
+#third {
+	height: 150px;
+	margin: 100px 30px 50px 30px;
+}
+
+#playerCharSelection .col-md-3 {
+	height: 200px;
+	padding: 0px;
+}
+.playerCharPick{
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+}
+
+#enemyCharSelection .col-md-3 {
+	height: 200px;
+	padding: 0px;
+}
+.enemyCharPick{
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+}
+.image {
+	max-width: 100%;
+	max-height: 100%;
+}
+img:hover {
+	opacity: 0.25;
+}
+button {
+	height: 100%;
+	font-family: 'IM Fell English SC', serif;
+}
+
+.row {
+	/*border: 1px solid white;*/
+}
+
+.health {
+	position:absolute;
+	font-family: 'IM Fell English SC', serif;
+	bottom: -70px;
+    left: 50px;
+    color:  #e0c647;
+    line-height:30px;
+    text-shadow: 2px 2px #000;
+    font-size: 35px;
+}
