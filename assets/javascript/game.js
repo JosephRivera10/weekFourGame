@@ -52,7 +52,7 @@
 	
 	var audio = new Audio("assets/sound/theme.mp3");
 
-	var audio1 = new Audio("assets/sound/shallnotpass.wav");
+	//var audio1 = new Audio("assets/sound/shallnotpass.wav");
 
 	//var audio = new Audio("assets/sound/shallnotpass.wav");
 	//var audio = $("#mySoundClip")[0];
